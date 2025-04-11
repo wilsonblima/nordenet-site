@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nordenet - Provedor de Internet</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: url('https://images.unsplash.com/photo-1534751516642-a1af1ef026b1?auto=format&fit=crop&w=1200&q=80') no-repeat center center;
+            background-size: cover;
+            color: white;
+            padding: 40px 20px;
+            font-size: 32px;
+            text-shadow: 1px 1px 4px #000;
+        }
+        .container {
+            padding: 20px;
+        }
+        .planos {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            background: url('https://images.unsplash.com/photo-1581093588401-99b8fefc1b1e?auto=format&fit=crop&w=1200&q=80') no-repeat center center;
+            background-size: cover;
+            padding: 40px 0;
+        }
+        .plano {
+            background-color: rgba(255, 255, 255, 0.95);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 200px;
+        }
+        .sobre {
+            background: url('https://images.unsplash.com/photo-1603791440384-56cd371ee9a7?auto=format&fit=crop&w=1200&q=80') no-repeat center center;
+            background-size: cover;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px;
+            text-align: left;
+            color: #333;
+        }
+        .sobre h2, .sobre h3, .sobre p {
+            background-color: rgba(255, 255, 255, 0.85);
+            padding: 10px;
+            border-radius: 5px;
+        }
+        footer {
+            background: url('https://images.unsplash.com/photo-1559136651-2c66da7a1a4e?auto=format&fit=crop&w=1200&q=80') no-repeat center center;
+            background-size: cover;
+            color: white;
+            padding: 20px;
+            margin-top: 20px;
+            text-shadow: 1px 1px 3px #000;
+        }
+        .central-cliente {
+            margin: 20px;
+            padding: 15px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .central-cliente a {
+            color: #0073e6;
+            font-weight: bold;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        Nordenet - O Melhor Provedor de Internet
+    </header>
+    <div class="container">
+        <h2>Escolha o melhor plano para você</h2>
+        <div class="planos">
+            <div class="plano">
+                <h3>Plano 50 Mbps</h3>
+                <p>R$ 39,90/mês</p>
+            </div>
+            <div class="plano">
+                <h3>Plano 70 Mbps</h3>
+                <p>R$ 49,90/mês</p>
+            </div>
+            <div class="plano">
+                <h3>Plano 100 Mbps + TV</h3>
+                <p>R$ 69,90/mês</p>
+            </div>
+            <div class="plano">
+                <h3>Plano 150 Mbps + TV</h3>
+                <p>R$ 89,90/mês</p>
+            </div>
+        </div>
+        <div class="sobre">
+            <h2>Sobre a Nordenet</h2>
+            <h3>História</h3>
+            <p>A Nordenet foi fundada com o objetivo de oferecer internet de alta qualidade a preços acessíveis. Com anos de experiência, nos tornamos referência em conectividade e inovação.</p>
+            <h3>Política da Empresa</h3>
+            <p>Nosso compromisso é fornecer um serviço confiável, com suporte eficiente e atendimento ao cliente de excelência. Prezamos pela transparência, inovação e qualidade.</p>
+            <h3>Nossa Missão</h3>
+            <p>Proporcionar a melhor experiência em conectividade para nossos clientes, garantindo um serviço de internet rápido, estável e acessível, sempre com excelência no atendimento e inovação tecnológica.</p>
+        </div>
+        <div class="central-cliente">
+            <h2>Central do Cliente</h2>
+            <p>Acesse sua conta e gerencie seus serviços:</p>
+            <a href="https://wstelecom-central.ispcloud.com.br/Login" target="_blank">Clique aqui para acessar</a>
+            <h3>Segunda Via de Fatura</h3>
+            <p>Para emitir a segunda via da sua fatura, acesse:</p>
+            <a href="https://wstelecom-central.ispcloud.com.br/Login" target="_blank">Clique aqui para emitir</a>
+        </div>
+    </div>
+    <footer>
+        &copy; 2025 Nordenet - Todos os direitos reservados.<br>
+        Contato: (81) 99325-2979<br>
+        Endereço: Rua José Figueira de Menezes, Nº 34, Bairro Frei Damião, Belo Jardim, Pernambuco
+    </footer>
+</body>
+</html>
